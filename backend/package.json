@@ -1,0 +1,25 @@
+{
+  "name": "submission-mlgc-hasanismail",
+  "version": "1.0.0",
+  "description": "Submission untuk kelas Machine Learning dengan Google Cloud",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasanqqsp/submission-mlgc.git"
+  },
+  "author": "Hasan Ismail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hasanqqsp/submission-mlgc/issues"
+  },
+  "homepage": "https://github.com/hasanqqsp/submission-mlgc#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.3",
+    "@tensorflow/tfjs-node": "2.4",
+    "nanoid": "^5.0.6"
+  }
+}
